@@ -1,0 +1,73 @@
+/*Modify the heading*/
+h1{
+    background-color: rgb(140, 0, 255);
+    font-family: sans-serif;
+    font-style: italic;
+    text-align: center;
+    border-radius: 2rem;
+    border-style: solid;
+    border-color: gold;
+    padding: 1rem;
+    
+}
+h2{
+    color:blueviolet ;
+    text-align: center;
+    background-color: yellow;
+}
+ul{
+    background-color: aqua;
+}
+image{
+    max-width: 100%;
+    height: auto;
+}
+/*make the table looks clearer*/
+table,td{
+    border-width: 1px;
+    border-style: solid;
+    border-color:black;
+}
+/*modify so table header can standout*/
+th{
+    background-color: rgb(230, 0, 255);
+    text-align: center;
+    padding: 10px 10px;
+}
+/*The site will highlight the line, make it easier to click the right link*/
+.hover-selection:hover{
+    background-color: rgb(255, 127, 178);
+}
+/*class created for centering image*/
+.image{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 50%;
+}
+/*highlight the row in table with mouse hover, make it easier to read*/
+tr:hover{
+    background-color: aquamarine;
+}
+/*use ID selector to modify just 1 line*/
+#main-selection{
+    text-align: center;
+}
+#small
+{
+    width:25%;
+}
+/*show red asterisk to repersent must have input*/
+.required:after{
+    content: "*";
+    color: red;
+}
+/*whenever user click, the box will appear bigger*/
+input:hover{
+    zoom:1.5;
+}
+/*make table appears in the center of the page*/
+table{
+    margin-left:auto;
+    margin-right:auto;
+}
